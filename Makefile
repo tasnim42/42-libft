@@ -6,11 +6,11 @@
 #    By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/11 16:05:20 by tzorai            #+#    #+#              #
-#    Updated: 2023/11/21 16:02:46 by tzorai           ###   ########.fr        #
+#    Updated: 2023/11/22 09:50:03 by tzorai           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-FLAGS = -Wall -wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
 
@@ -61,11 +61,11 @@ BONUS_SOURCES = ft_lstnew.c\
 
 HEADERS = libft.h
 
-OBJECTS = $(SOURCES:.c=.o)
-BONUS_OBJECTS = $(BONUS_SOURCES:.c=.o)
+OBJECT = $(SOURCES:.c=.o)
 
+BONUS_OBJECT = $(BONUS_SOURCES:.c=.o)
 
-$(NAME): $(OBJET)
+$(NAME): $(OBJECT)
 	@ar rc $(NAME) $(OBJECT)
 
 bonus: $(BONUS_OBJECT)

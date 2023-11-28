@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 12:58:09 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/20 13:02:52 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/11/28 18:28:13 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*temp;
-	
+
 	if (!lst || !*lst || !del)
 		return ;
 	while (*lst)

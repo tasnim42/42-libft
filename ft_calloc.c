@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:23:34 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:48:58 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/11/28 17:03:35 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_calloc(size_t nb_elements, size_t size_element)
 	size_t	total_size;
 
 	total_size = nb_elements * size_element;
+	if (size_element && (nb_elements > (UINT32_MAX / size_element)))
+		return (NULL);
 	allocated_memory = malloc(total_size);
 	if (allocated_memory == NULL)
 		return (NULL);

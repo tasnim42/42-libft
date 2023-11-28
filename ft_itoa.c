@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:14:41 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:49:40 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/11/28 18:12:19 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,25 +31,27 @@ static size_t	num_size(int n)
 char	*ft_itoa(int n)
 {
 	char	*str;
+	long	nbr;
 	size_t	i;
 
+	nbr = n;
 	i = num_size(n);
 	str = (char *)malloc(i + 1);
 	if (!str)
 		return (0);
 	str[i] = '\0';
 	i--;
-	if (n == 0)
+	if (nbr == 0)
 		str[i] = '0';
-	else if (n < 0)
+	else if (nbr < 0)
 	{
 		str[0] = '-';
-		n = -n;
+		nbr = -nbr;
 	}
-	while (n > 0)
+	while (nbr > 0)
 	{
-		str[i] = (n % 10) + '0';
-		n = n / 10;
+		str[i] = (nbr % 10) + '0';
+		nbr = nbr / 10;
 		i--;
 	}
 	return (str);

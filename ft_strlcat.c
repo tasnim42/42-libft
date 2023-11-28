@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:12:21 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:06:03 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/11/28 15:31:27 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,15 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 // 	size_t result2 = strlcat(dest2, src2, n);
 // 	printf("Concatenate string : %s\n", dest2);
 // 	printf("Total lengh after concatenation : %zu\n", result2);
+// }
+
+// int main()
+// {
+// 	char	str_dest[100] = "Ta";
+// 	char	str_src[] = "Ha";
+// 	size_t	n = 1;
+
+// 	// size_t	size = ft_strlcat(str_dest, str_src, n);
+// 	size_t	size = strlcat(str_dest, str_src, n);
+// 	printf("%zu\n", size);
 // }

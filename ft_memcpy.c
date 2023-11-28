@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 16:58:12 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:03:09 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/11/28 16:18:30 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,15 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned char		*d;
-	const unsigned char	*s;
-	size_t				i;
+	unsigned char	*d;
+	unsigned char	*s;
+	size_t			i;
 
 	d = (unsigned char *)dest;
 	s = (unsigned char *)src;
 	i = 0;
-	if (src == NULL || dest == NULL)
-	{
+	if (dest == NULL && src == NULL)
 		return (NULL);
-	}
 	while (i < n)
 	{
 		d[i] = s[i];
