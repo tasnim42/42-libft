@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 14:19:56 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:51:14 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:27:46 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ void	*ft_memchr(const void *str, int c, size_t len)
 	}
 	return (NULL);
 }
-
-// int main()
-// {
-// 	char str[] = "coutou";
-// 	int c = 't';
-// 	size_t len = 6;
-
-// 	printf("%s\n", ft_memchr(str, c, len));
-// }

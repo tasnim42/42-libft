@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:14:57 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:57:04 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:41 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,3 @@ char	f(unsigned int i, char c)
 	(void)i;
 	return ((char)ft_tolower(c));
 }
-
-// int main()
-// {
-// 	char	str1[] = "LaYaNe";
-// 	char	*str2;
-
-// 	str2 = ft_strmapi(str1, *f);
-// 	printf("Original string is : %s\n", str1);
-// 	printf("String after modification from (f) is : %s\n", str2);
-// }

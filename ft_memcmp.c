@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 09:01:52 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:31:59 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:27:48 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t len)
 	}
 	return (0);
 }
-
-// int main()
-// {
-// 	char s1[] = {'a', 'b', '1', 'h'};
-// 	char s2[] = {'a', 'b', '9', 'f'};
-// 	size_t len = sizeof s1;
-// 	printf("%d\n", ft_memcmp(s1, s2, len));
-
-// 	printf("%d\n", memcmp(s1, s2, len));
-// }

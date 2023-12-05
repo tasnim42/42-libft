@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:14:27 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:30:56 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:13 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,16 +81,3 @@ char	**ft_split(char const *s, char c)
 	set_mem(tab, s, c);
 	return (tab);
 }
-
-// int main() 
-// {
-// 	char	s[] = "Je-suis-Tasnim";
-// 	char	c = '-';
-// 	char	**array = ft_split(s, c);
-// 	int	i = 0;
-
-// 	while (array[i])
-// 	{
-// 		printf("%s\n", array[i++]);
-// 	}
-// }

@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:17:12 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 18:33:27 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:07 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,3 @@ void	ft_putnbr_fd(int nb, int fd)
 		ft_putchar_fd(nb + '0', fd);
 	}
 }
-
-// int main()
-// {
-// 	int n = -25478;
-// 	ft_putnbr_fd(n, 1);
-// }

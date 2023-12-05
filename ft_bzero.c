@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 16:21:05 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:00:55 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:26:50 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ void	ft_bzero(void *str, size_t n)
 		i++;
 	}
 }
-
-// int main()
-// {
-// 	char str[] = "Tasnim";
-
-// 	printf("Original string : %s\n", str);
-// 	ft_bzero(str, 2);
-// 	printf("After bzero : %s", str);
-// }

@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 17:32:38 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:08:09 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:29:01 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,3 @@ int	ft_tolower(int c)
 	}
 	return (c);
 }
-
-// int main()
-// {
-// 	char car = 'L';
-
-// 	printf("%c\n", ft_tolower(car));
-// }

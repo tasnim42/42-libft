@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 09:55:37 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/28 15:31:20 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:33 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,21 +34,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size_dest)
 	}
 	return (src_size);
 }
-
-// int main()
-// {
-// 	const char src[] = "Tasnim";
-// 	char dest[10];
-
-// 	printf("%zu\n", ft_strlcpy(dest, src, 4));
-// }
-
-// int	main()
-// {
-// 	char	dest[10] = "Hamsa";
-// 	char	src[10] = "Taha";
-// 	size_t size_dest = 2;
-
-// 	// printf("%zu\n", ft_strlcpy(dest, src, size_dest));
-// 	printf("%zu\n", strlcpy(dest, src, size_dest));
-// }

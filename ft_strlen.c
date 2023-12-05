@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 13:21:17 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/04 09:00:55 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:36 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-
-// int	main()
-// {
-// 	char	str[] = "Hello";
-// 	printf("%d", ft_strlen(str));
-// }

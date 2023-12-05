@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 17:04:33 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/21 15:58:36 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:27:41 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
-
-// int main()
-// {
-// 	char	str[] = "Hello World";
-// 	t_list	*new = ft_lstnew(str);
-// 	printf("%s\n", (char *)(new->content));
-// 	free(new);
-// }

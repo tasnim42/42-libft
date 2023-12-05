@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 16:53:59 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:08:17 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:29:04 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-
-// int main()
-// {
-// 	char car = 'j';
-
-// 	printf("%c\n", ft_toupper(car));
-// }

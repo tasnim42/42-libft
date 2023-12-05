@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:02:33 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/28 16:34:03 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:53 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int main()
-// {
-// 	char str[10] = "t";
-// 	int c = 't';
-
-// 	printf("%s\n", ft_strrchr(str, c));
-// }

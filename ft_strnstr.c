@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 07:53:43 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:59:01 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:48 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,3 @@ char	*ft_strnstr(const char *str, const char *tofind, size_t len)
 	}
 	return (0);
 }
-
-// int main()
-// {
-// 	char str[] = "Hello good World";
-// 	char tofind[] = "good";
-// 	size_t len = 11;
-
-// 	char *result = ft_strnstr(str, tofind, len);
-// 	printf("%s\n", result);
-// }

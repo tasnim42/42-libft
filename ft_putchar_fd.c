@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 18:02:36 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 18:10:45 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:00 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// int main()
-// {
-// 	char c = 'A';
-// 	ft_putchar_fd(c, 1);
-// }

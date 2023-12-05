@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 13:23:34 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:03:39 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:27:58 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	*ft_memset(void *dest, int c, size_t len)
 	}
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	char	str[] = "Hello";
-// 	printf("Original string is : %s\n", str);
-// 	ft_memset(str, 'A', 0);
-// 	printf("After ft_memset : %s\n", str);
-// }

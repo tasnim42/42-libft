@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:08:52 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/12 14:09:13 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:25 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ptr[i] = '\0';
 	return (ptr);
 }
-
-// int main()
-// {
-// 	char str1[] = "Hello ";
-// 	char str2[] = "World";
-// 	printf("Final string is : %s\n", ft_strjoin(str1, str2));
-// }

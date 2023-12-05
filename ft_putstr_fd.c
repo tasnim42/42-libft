@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:16:26 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 18:09:22 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:09 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int main()
-// {
-// 	char str[] = "Hello";
-// 	ft_putstr_fd(str, 1);
-// }

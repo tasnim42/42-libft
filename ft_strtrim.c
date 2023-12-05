@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:09:13 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/28 16:24:46 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:55 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (ft_substr(s1, start, end - start + 1));
 }
-
-// int main()
-// {
-// 	char	*str1 = "#$Tas#$nim";
-// 	char	*delete = "#$!!!";
-
-// 	printf("The string trimmed is : %s", ft_strtrim(str1, delete));
-// }

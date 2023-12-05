@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 16:58:12 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/28 16:18:30 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:27:51 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// int main()
-// {
-// 	char src[] = "Hello World";
-// 	char dest[50];
-
-// 	printf("Source : %s\n", src);
-// 	ft_memcpy(dest, src, strlen(src) + 1);
-// 	printf("Destination : %s\n", dest);
-// }

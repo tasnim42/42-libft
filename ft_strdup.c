@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 10:42:58 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/11 17:05:10 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:19 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,18 +31,3 @@ char	*ft_strdup(const char *s1)
 	s2[i] = '\0';
 	return (s2);
 }
-
-// int main()
-// {
-// 	const char *str1 = "Hello World";
-// 	char *str2;
-
-// 	str2 = ft_strdup(str1);
-// 	if (str2 == NULL)
-// 	{
-// 		printf("Erreur d'allocation de mémoire.\n");
-// 		return 1;
-// 	}
-// 	printf("Copy is : %s\n", str2);
-// 	free(str2);
-// }

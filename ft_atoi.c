@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 14:09:50 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/17 10:47:02 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:26:44 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,3 @@ int	ft_atoi(const char *str)
 		return (overflow(sign, number));
 	return (sign * number);
 }
-
-// int main()
-// {
-// 	char str[] = "15458465";
-// 	printf("%d\n", ft_atoi(str));
-// }

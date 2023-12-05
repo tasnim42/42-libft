@@ -6,7 +6,7 @@
 /*   By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 16:08:39 by tzorai            #+#    #+#             */
-/*   Updated: 2023/11/28 18:05:25 by tzorai           ###   ########.fr       */
+/*   Updated: 2023/12/05 16:28:59 by tzorai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,11 +46,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ptr[i] = '\0';
 	return (ptr);
 }
-
-// int main()
-// {
-// 	char s1[100000] = "My name is Tasnim";
-// 	int start = "";
-// 	size_t len = 1000;
-// 	printf("Substring is : %s\n", ft_substr(s1, start, len));
-// }
