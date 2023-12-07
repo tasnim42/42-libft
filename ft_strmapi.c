@@ -31,9 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-char	f(unsigned int i, char c)
-{
-	(void)i;
-	return ((char)ft_tolower(c));
-}

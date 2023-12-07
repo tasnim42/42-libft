@@ -6,9 +6,11 @@
 #    By: tzorai <tzorai@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/11 16:05:20 by tzorai            #+#    #+#              #
-#    Updated: 2023/11/22 09:50:03 by tzorai           ###   ########.fr        #
+#    Updated: 2023/12/07 13:12:14 by tzorai           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+CC = cc
 
 FLAGS = -Wall -Wextra -Werror
 
@@ -80,7 +82,7 @@ clean:
 	@rm -rf $(OBJECT) $(BONUS_OBJECT)
 
 fclean: clean
-	@rm -fr $(NAME)
+	@rm -rf $(NAME)
 
 re: fclean all
 
